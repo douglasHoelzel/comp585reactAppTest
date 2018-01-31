@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/doug/Desktop/school/Spring2018/COMP585/reactApp/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h

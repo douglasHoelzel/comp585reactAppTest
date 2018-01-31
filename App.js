@@ -9,29 +9,25 @@ import {
   Platform,
   StyleSheet,
   Text,
+  Image,
+  Button,
   View
 } from 'react-native';
-
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
 
 export default class App extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to Chicken Bus!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+      <Image style={styles.image}
+        source={require('./images/chickenBusLogo1.png')}/>
+            <Button style={styles.startButton}
+                onPress={() => {
+                      console.log('Start Button Pressed');
+                }}
+                title="Start"
+                color="#3498DB"
+                accessibilityLabel="Learn more about this purple button"
+            />
       </View>
     );
   }
@@ -42,17 +38,17 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#FFC66F',
+    backgroundColor: '#FFD79B',
+  },
+  image:{
+      width: 300,
+      height: 100,
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
-    color: '#191919'
-  },
-  instructions: {
-    textAlign: 'center',
     color: '#191919',
-    marginBottom: 5,
+    fontWeight: 'bold',
   },
 });
