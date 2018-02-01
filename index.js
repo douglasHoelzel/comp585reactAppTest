@@ -29,15 +29,16 @@ export default class myapp extends Component{
             <View style={styles.userNameContainer}>
             <TextInput
                 style={{height: 40, backgroundColor: '#FCF3CF',}}
-                    placeholder="User Name"
-                    onChangeText={(text) => this.setState({text})}
+                placeholder="User Name"
+                onChangeText={(text) => this.setState({text})}
             />
             </View>
             <View style={styles.userNameContainer}>
             <TextInput
                 style={{height: 40, backgroundColor: '#FCF3CF',}}
-                    placeholder="Password"
-                    onChangeText={(text) => this.setState({text})}
+                secureTextEntry={true}
+                placeholder="Password"
+                onChangeText={(text) => this.setState({text})}
             />
             </View>
 
