@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   Platform,
@@ -20,28 +14,37 @@ export default class App extends Component<{}> {
       <View style={styles.container}>
       <Image style={styles.image}
         source={require('./images/chickenBusLogo1.png')}/>
+            <View style={styles.container2}>
             <Button style={styles.startButton}
                 onPress={() => {
                       console.log('Start Button Pressed');
                 }}
                 title="Start"
-                color="#3498DB"
+                color="#fff"
                 accessibilityLabel="Learn more about this purple button"
             />
-      </View>
+            </View>
+       </View>
     );
   }
 }
 
+
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 4,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#FFD79B',
-  },
+},
+container2:{
+    backgroundColor: '#2D91D4',
+    borderRadius: 5,
+    width: 200,
+    height: 40,
+},
   image:{
-      width: 300,
+      width: 350,
       height: 100,
   },
   welcome: {
