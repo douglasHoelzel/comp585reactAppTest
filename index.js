@@ -28,14 +28,18 @@ export default class myapp extends Component{
 
             <View style={styles.userNameContainer}>
             <TextInput
-                style={{height: 40, backgroundColor: '#FCF3CF',}}
+                style={{height: 40,
+                    backgroundColor: '#FCF3CF',
+                    borderRadius: 6,}}
                 placeholder="User Name"
                 onChangeText={(text) => this.setState({text})}
             />
             </View>
             <View style={styles.userNameContainer}>
             <TextInput
-                style={{height: 40, backgroundColor: '#FCF3CF',}}
+                style={{height: 40,
+                    backgroundColor: '#FCF3CF',
+                    borderRadius: 6,}}
                 secureTextEntry={true}
                 placeholder="Password"
                 onChangeText={(text) => this.setState({text})}
@@ -73,7 +77,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F9E79F',
+    backgroundColor: '#F7EB7A',
 },
 imageContainer:{
     paddingBottom: 60,
