@@ -1,3 +1,10 @@
+/**
+*  FOR CHICKENBUS TEAM:
+*  This is a random test page to play around with
+*/
+
+
+
 import React, { Component } from 'react';
 import {
   Platform,

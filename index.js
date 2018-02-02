@@ -1,3 +1,9 @@
+/**
+*  FOR CHICKENBUS TEAM:
+*  this is the login page, might have to remain
+*  named index.js for now
+*/
+
 import React, {Component} from 'react';
 import MapPage from './components/MapPage';
 import HomePage from './components/HomePage';

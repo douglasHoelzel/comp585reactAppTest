@@ -1,3 +1,8 @@
+/**
+*  FOR CHICKENBUS TEAM:
+*  This is the "Main" map/home page
+*/
+
 import React, { Component } from 'react';
 import {
     AppRegistry,
